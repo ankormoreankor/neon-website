@@ -88,12 +88,7 @@ const Submenu = ({
                               tabIndex={isActive ? 0 : -1}
                               onKeyDown={handleSubmenuNavigation(index)}
                             >
-                              <span
-                                className={clsx(
-                                  'flex items-baseline gap-x-1.5 text-lg font-medium leading-none',
-                                  'text-white transition-colors duration-200 group-hover:text-gray-new-80'
-                                )}
-                              >
+                              <span className="flex items-baseline gap-x-1.5 text-lg font-medium leading-none text-white transition-colors duration-200 group-hover:text-gray-new-80">
                                 {title}
                               </span>
                               {description}
