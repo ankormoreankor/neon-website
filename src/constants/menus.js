@@ -138,7 +138,7 @@ export default {
       to: LINKS.pricing,
     },
     {
-      text: 'Company',
+      text: 'Resources',
       sections: [
         {
           title: 'Company',
@@ -166,7 +166,7 @@ export default {
           ],
         },
         {
-          title: 'Resources',
+          title: 'Learn',
           items: [
             {
               title: 'Security',
